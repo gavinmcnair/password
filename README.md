@@ -50,5 +50,9 @@ make
 ### Pre-requisites
 
    * This tool will only work on OSX
-   * This tool requires Golang to be installed 
+   * This tool requires Golang to be installed
+
+## Thanks
+
+To all the examples online which made this code possible. I'll credit each snippet when ic can find them again.
 
