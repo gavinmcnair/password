@@ -1,5 +1,4 @@
-
-## OSX Keychain Tool
+## OSX Keychain Tool
 
 A tool that allows you to create and delete secrets inside the OSX keychain.
 Secrets can currently be either
