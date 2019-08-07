@@ -24,7 +24,6 @@ func main() {
 	var args args
 	parsedArgs := arg.MustParse(&args)
 
-	// Args Handling. Needs improvement
 	if args.Add != "" && args.Secret != "" {
 		fmt.Printf("Adding secret name: %s with value %s\n", args.Add, args.Secret)
 		if args.Steam {
@@ -56,7 +55,6 @@ func retrievePassword(secret string) string {
 		fmt.Printf("Entry cannot be found for secretname: %s\n", secret)
 		os.Exit(0)
 	}
-	// This method of storing metadata needs improvement.
 	returneddata := strings.SplitN(data, "±", 2)
 	if returneddata[0] == "Password" {
 		return returneddata[1]
@@ -69,7 +67,6 @@ func decodeOTP(code string, otptype string) string {
 	// Get OTP -1/+1 from currentTS for previous/next
 	currentTS, _ := TimeStamp()
 	secret := normalizeSecret(code)
-	// Options are TOTP or Steam
 	otp, e := AuthCode(secret, currentTS, otptype)
 	if e != nil {
 		log.Fatal(e)
