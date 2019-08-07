@@ -39,6 +39,27 @@ password --add <name> -otp <recovery code>
 password --add <name> -steam <recovery code>
 ```
 
+### To get help
+Either run the command with no options or use
+
+```
+password --help
+OSX Password Keychain tool
+
+Usage: password [--otp] [--steam] [--print] [--add ADD] [--del DEL] SECRET
+
+Positional arguments:
+  SECRET
+
+Options:
+  --otp, -o              Add Recovery code for generic OTP key
+  --steam, -s            Add Recovery code for Steam OTP key
+  --print, -p            Print the value to screen rather than copy to the clipboard
+  --add ADD, -a ADD      Name of the secret to add
+  --del DEL, -d DEL      Name of the secret to delete
+  --help, -h             display this help and exit
+```
+
 ## To Build
 
 Check out the Repo within your GOPATH and run
