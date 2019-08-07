@@ -30,13 +30,13 @@ password --add <name> <secret>
 ### To add a google OTP
 
 ```
-password --add <name> -otp <secret>
+password --add <name> -otp <recovery code>
 ```
 
 ### To add a steam OTP
 
 ```
-password --add <name> -steam <secret>
+password --add <name> -steam <recovery code>
 ```
 
 ## To Build
