@@ -39,6 +39,12 @@ password --add <name> -otp <recovery code>
 password --add <name> -steam <recovery code>
 ```
 
+### To delete a secret
+
+```
+password --del <name>
+```
+
 ### To get help
 Either run the command with no options or use
 
