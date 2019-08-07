@@ -43,7 +43,7 @@ password --add <name> -steam <recovery code>
 Either run the command with no options or use
 
 ```
-password --help
+$ password --help
 OSX Password Keychain tool
 
 Usage: password [--otp] [--steam] [--print] [--add ADD] [--del DEL] SECRET
@@ -75,5 +75,5 @@ make
 
 ## Thanks
 
-To all the examples online which made this code possible. I'll credit each snippet when ic can find them again.
+To all the examples online which made this code possible. I'll credit each snippet when I find them again.
 
