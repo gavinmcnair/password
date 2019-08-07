@@ -39,4 +39,16 @@ password --add <name> -otp <secret>
 password --add <name> -steam <secret>
 ```
 
+## To Build
+
+Check out the Repo within your GOPATH and run
+
+```
+make
+```
+
+### Pre-requisites
+
+   * This tool will only work on OSX
+   * This tool requires Golang to be installed 
 
