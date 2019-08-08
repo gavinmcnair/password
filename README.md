@@ -7,6 +7,14 @@ Secrets can currently be either
    * Google OTP
    * Steam OTP
 
+## To install
+
+Check out the repo and run
+
+```
+make install
+```
+
 ## Usage
 
 ### To retrieve a secret
@@ -66,7 +74,7 @@ Options:
   --help, -h             display this help and exit
 ```
 
-## To Build
+## To Build without installing
 
 Check out the Repo within your GOPATH and run
 
