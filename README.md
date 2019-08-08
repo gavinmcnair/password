@@ -87,6 +87,23 @@ make
    * This tool will only work on OSX
    * This tool requires Golang to be installed
 
+## FAQ
+
+   * I get asked to unlock my keychain
+      * This is required to gain access to the secrets and is part of securing the data
+   * Is this secure?
+      * Its as secure as the OSX keychain. Locking your machine will render the keychain inaccessible (assuming Apple have no bugs).
+   * Should I use this to store my password AND two factor for the same use
+      * Its up to you but its worth remembering that the primary point of two factor is to require two disparate sources in order to gain access. This app DOES negate that but does draw upon OSX encryption to reduce the risk slightly.
+   * I have a better idea!
+      * Create an issue and i'll take a look.
+
+## Help
+
+Any help would be appreciated. Please create PR's.
+
+Items to tackle are in the issues
+
 ## Thanks
 
 To all the examples online which made this code possible. I'll credit each snippet when I find them again.
